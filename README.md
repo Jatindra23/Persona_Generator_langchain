@@ -10,7 +10,7 @@ This project is a Persona Generator built using [LangChain](https://github.com/l
 
 ## Prerequisites
 
-- Python should be >=3.9 and less than 3.10 (otherwise langgraph will not work properly)
+- Python should be >=3.9 and less than 3.10 in venv (otherwise langgraph will not work properly)
 - [pip](https://pip.pypa.io/en/stable/installation/)
 
 ## Installation
