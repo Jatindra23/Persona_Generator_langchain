@@ -10,7 +10,7 @@ This project is a Persona Generator built using [LangChain](https://github.com/l
 
 ## Prerequisites
 
-- Python should be grater than 3.9 oand less than 3.10 (otherwise langgraph will not work properly)
+- Python should be >=3.9 and less than 3.10 (otherwise langgraph will not work properly)
 - [pip](https://pip.pypa.io/en/stable/installation/)
 
 ## Installation
@@ -24,25 +24,27 @@ This project is a Persona Generator built using [LangChain](https://github.com/l
 2. **Create and activate a virtual environment (optional but recommended):**
     ```bash
     python -m venv venv
+    ```
 
     ```conda
     conda create -n venv python=3.9 -y
+    ```
 
     # to activate
     conda activate your_venv_nane
 
     # On Windows
     venv\Scripts\activate
+
     # On macOS/Linux
     source venv/bin/activate
     ```
 
 3. **Install dependencies:**
-    ```bash
-    # 1. use python install setup.py for the first Time
-    # And of later use pip install -e . --user # the --user is important to add because it will not "show dependecy is already exist" error
+    - 1. use python install setup.py for the first Time
+    - 2. And of later use pip install -e . --user # the --user flag is important to add because it will not show "dependecy is already exist" error
 
-    ```
+    
 
 4. **Configuration**
 
