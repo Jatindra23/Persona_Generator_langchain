@@ -30,16 +30,16 @@ This project is a Persona Generator built using [LangChain](https://github.com/l
     conda create -n venv python=3.9 -y
     ```
 
-    ## **Activate ENV**
+    **Activate ENV**
     ```
     conda activate your_venv_nane
     ```
-    ## On Windows powershell
+     **On Windows powershell**
     ```
     venv\Scripts\activate
     ```
 
-    ## On macOS/Linux
+    **On macOS/Linux**
     ```
     source venv/bin/activate
     ```
